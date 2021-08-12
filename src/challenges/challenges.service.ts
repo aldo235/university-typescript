@@ -27,7 +27,7 @@ export class ChallengesService {
     }
 
     /**
-     * 
+     * Get Challenge By Reviewer
      * @param reviewerId 
      */
     async getChallengeByReviewer(reviewerId: string) {
@@ -41,7 +41,7 @@ export class ChallengesService {
     }
 
     /**
-     * 
+     * Get Challenge By Student
      * @param studentId 
      */
      async getChallengeByStudent(studentId: string) {

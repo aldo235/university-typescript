@@ -20,7 +20,6 @@ export class ChallengesController {
         @Body('description') description: string,
         @Param('teacher') reviewerId: string
     ) {
-        console.log(reviewerId)
         const generatedId = await this.challengeService.createChallenge(
             reviewerId,
             studentId,
